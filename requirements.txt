@@ -1,0 +1,24 @@
+# Python dependencies for Interactive English Learning Quiz System
+
+# Core GUI
+# tkinter is usually included with Python, but if not available:
+# On Linux: sudo apt-get install python3-tk
+# On macOS: tkinter should be included
+# On Windows: tkinter is included by default
+
+# Computer Vision
+opencv-python>=4.5.0
+mediapipe>=0.10.0
+
+# Face Recognition (optional but recommended for login/signup)
+face-recognition>=1.3.0
+dlib>=19.22.0  # Required by face-recognition
+
+# Gesture Recognition
+dollarpy>=0.3.0
+
+# Note: dlib installation may require:
+# - Visual C++ Build Tools on Windows
+# - cmake on Linux/Mac
+# Alternative: Use conda to install dlib: conda install -c conda-forge dlib
+

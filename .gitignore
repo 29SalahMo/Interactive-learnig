@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+children.db
+
+# Face encodings and sensitive data
+faces/
+encodings.pkl
+*.pkl
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Compiled files
+*.pyc
+*.pyo
+
+# C# build files
+TUIO11_NET-master/**/bin/
+TUIO11_NET-master/**/obj/
+*.dll
+*.exe
+!reacTIVision-1.5.1-win64/reacTIVision.exe
+!IriunWebcam-2.9.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Documentation (keep main docs, ignore generated)
+*.docx
+*.md
+!README.md
+*.bat
+GITHUB_SETUP.md
+DATABASE_GUIDE.md
+SOCKET_CODE_LOCATIONS.md
+
+# MAC OS
+__MACOSX/
+.DS_Store
+
+# Images and sounds (keep structure but can be large)
+# Uncomment if you want to exclude media files
+# quiz side/images/
+# quiz side/sounds/
