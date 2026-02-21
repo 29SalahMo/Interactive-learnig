@@ -74,6 +74,7 @@ TUIO11_NET-master/**/obj/
 *.md
 !README.md
 !HOW_TO_USE_ON_GITHUB.md
+!STREAMLIT_SETUP.md
 *.bat
 GITHUB_SETUP.md
 DATABASE_GUIDE.md
@@ -83,6 +84,9 @@ SOCKET_CODE_LOCATIONS.md
 !.replit
 !replit.nix
 !.github/
+!docs/
+!streamlit_app.py
+!requirements_streamlit.txt
 
 # MAC OS
 __MACOSX/

@@ -1,0 +1,5 @@
+# Streamlit web demo requirements
+streamlit>=1.28.0
+
+# Note: This is a minimal version for the web demo
+# For full desktop application, use requirements.txt

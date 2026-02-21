@@ -6,12 +6,18 @@ An interactive learning system that combines face recognition, gesture control, 
 
 You can test and use this application directly in your browser without downloading anything!
 
+### 🌐 **Live Web Pages:**
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=for-the-badge)](https://29salahmo.github.io/Interactive-learnig/)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit-Web%20Demo-red?style=for-the-badge)](https://interactive-learnig.streamlit.app/)
 [![Run on Replit](https://replit.com/badge/github/29SalahMo/Interactive-learnig)](https://replit.com/new/github/29SalahMo/Interactive-learnig)
 
 **Quick Start Options:**
-- **Replit**: Click the badge above to run the app in Replit (requires account, free tier available)
-- **Local Installation**: Follow the [Quick Start](#-quick-start) guide below
-- **GitHub Codespaces**: Use GitHub Codespaces for a cloud-based development environment
+- **🌐 GitHub Pages**: [Click here for interactive demo page](https://29salahmo.github.io/Interactive-learnig/) - Beautiful landing page with sample quiz
+- **🎮 Streamlit Web Demo**: [Click here for full web quiz](https://interactive-learnig.streamlit.app/) - Play the quiz directly in your browser
+- **🟢 Replit**: Click the badge above to run the desktop app in Replit (requires account, free tier available)
+- **💻 Local Installation**: Follow the [Quick Start](#-quick-start) guide below
+- **☁️ GitHub Codespaces**: Use GitHub Codespaces for a cloud-based development environment
 
 > **Note**: Some features (like camera access for face recognition) may have limited functionality in online environments due to browser security restrictions. For full functionality, we recommend local installation.
 
