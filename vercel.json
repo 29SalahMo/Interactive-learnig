@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "builds": [
+  "buildCommand": null,
+  "outputDirectory": "docs",
+  "rewrites": [
     {
-      "src": "docs/index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/docs/$1"
+      "source": "/(.*)",
+      "destination": "/$1"
     }
   ],
   "headers": [
