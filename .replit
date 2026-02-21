@@ -1,0 +1,19 @@
+language = "python3"
+run = "python main_gui.py"
+
+[deploy]
+run = ["sh", "-c", "echo 'This is a desktop application. Please run it locally or use Replit with GUI support.'"]
+
+[env]
+PYTHONPATH = "${PYTHONPATH}:."
+
+[packager]
+language = "python3"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+enabledForHosting = false
+
+[interpreter]
+command = ["python3", "-u", "$REPL_SOURCE_FILE"]
